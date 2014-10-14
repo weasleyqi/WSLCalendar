@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A95D000719D321E300BB7051 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A95D000519D321E300BB7051 /* InfoPlist.strings */; };
+		A95D000919D321E300BB7051 /* WSLCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A95D000819D321E300BB7051 /* WSLCalendarTests.m */; };
+		A95D003A19D3221600BB7051 /* MobileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A95D001519D3221500BB7051 /* MobileUtils.m */; };
+		A95D003B19D3221600BB7051 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D001819D3221500BB7051 /* arrow.png */; };
+		A95D003C19D3221600BB7051 /* crate_cal.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D001919D3221500BB7051 /* crate_cal.png */; };
+		A95D003D19D3221600BB7051 /* crate_cal_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D001A19D3221500BB7051 /* crate_cal_pressed.png */; };
+		A95D003E19D3221600BB7051 /* icon_add.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D001B19D3221500BB7051 /* icon_add.png */; };
+		A95D003F19D3221600BB7051 /* icon_btn_complete.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D001C19D3221500BB7051 /* icon_btn_complete.png */; };
+		A95D004019D3221600BB7051 /* icon_btn_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D001D19D3221500BB7051 /* icon_btn_delete.png */; };
+		A95D004119D3221600BB7051 /* icon_clock.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D001E19D3221500BB7051 /* icon_clock.png */; };
+		A95D004219D3221600BB7051 /* icon_edit.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D001F19D3221500BB7051 /* icon_edit.png */; };
+		A95D004319D3221600BB7051 /* icon_form_alarm.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D002019D3221500BB7051 /* icon_form_alarm.png */; };
+		A95D004419D3221600BB7051 /* icon_form_close.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D002119D3221500BB7051 /* icon_form_close.png */; };
+		A95D004519D3221600BB7051 /* icon_form_column_break.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D002219D3221500BB7051 /* icon_form_column_break.png */; };
+		A95D004619D3221600BB7051 /* icon_form_extend.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D002319D3221500BB7051 /* icon_form_extend.png */; };
+		A95D004719D3221600BB7051 /* icon_form_notes.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D002419D3221500BB7051 /* icon_form_notes.png */; };
+		A95D004819D3221600BB7051 /* icon_form_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D002519D3221500BB7051 /* icon_form_selected.png */; };
+		A95D004919D3221600BB7051 /* icon_form_time.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D002619D3221500BB7051 /* icon_form_time.png */; };
+		A95D004A19D3221600BB7051 /* icon_form_title.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D002719D3221500BB7051 /* icon_form_title.png */; };
+		A95D004B19D3221600BB7051 /* icon_form_type.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D002819D3221500BB7051 /* icon_form_type.png */; };
+		A95D004C19D3221600BB7051 /* icon_form_user.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D002919D3221600BB7051 /* icon_form_user.png */; };
+		A95D004D19D3221600BB7051 /* icon_graywhite_left_triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D002A19D3221600BB7051 /* icon_graywhite_left_triangle.png */; };
+		A95D004E19D3221600BB7051 /* to_local.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D002B19D3221600BB7051 /* to_local.png */; };
+		A95D004F19D3221600BB7051 /* to_local_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D002C19D3221600BB7051 /* to_local_pressed.png */; };
+		A95D005019D3221600BB7051 /* upload.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D002D19D3221600BB7051 /* upload.png */; };
+		A95D005119D3221600BB7051 /* upload_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = A95D002E19D3221600BB7051 /* upload_pressed.png */; };
+		A95D005219D3221600BB7051 /* ScheduleData.m in Sources */ = {isa = PBXBuildFile; fileRef = A95D003119D3221600BB7051 /* ScheduleData.m */; };
+		A95D005319D3221600BB7051 /* ScheduleNewView.m in Sources */ = {isa = PBXBuildFile; fileRef = A95D003319D3221600BB7051 /* ScheduleNewView.m */; };
+		A95D005419D3221600BB7051 /* ScheduleRight.m in Sources */ = {isa = PBXBuildFile; fileRef = A95D003519D3221600BB7051 /* ScheduleRight.m */; };
+		A95D005519D3221600BB7051 /* ScheduleType.m in Sources */ = {isa = PBXBuildFile; fileRef = A95D003719D3221600BB7051 /* ScheduleType.m */; };
+		A95D005619D3221600BB7051 /* ScheduleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A95D003919D3221600BB7051 /* ScheduleView.m */; };
+		A95DFFE419D321E300BB7051 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95DFFE319D321E300BB7051 /* Foundation.framework */; };
+		A95DFFE619D321E300BB7051 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95DFFE519D321E300BB7051 /* CoreGraphics.framework */; };
+		A95DFFE819D321E300BB7051 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95DFFE719D321E300BB7051 /* UIKit.framework */; };
+		A95DFFEE19D321E300BB7051 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A95DFFEC19D321E300BB7051 /* InfoPlist.strings */; };
+		A95DFFF019D321E300BB7051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A95DFFEF19D321E300BB7051 /* main.m */; };
+		A95DFFF419D321E300BB7051 /* WSLScheduleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A95DFFF319D321E300BB7051 /* WSLScheduleAppDelegate.m */; };
+		A95DFFF619D321E300BB7051 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95DFFF519D321E300BB7051 /* Images.xcassets */; };
+		A95DFFFD19D321E300BB7051 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95DFFFC19D321E300BB7051 /* XCTest.framework */; };
+		A95DFFFE19D321E300BB7051 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95DFFE319D321E300BB7051 /* Foundation.framework */; };
+		A95DFFFF19D321E300BB7051 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95DFFE719D321E300BB7051 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A95D000019D321E300BB7051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A95DFFD819D321E300BB7051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A95DFFDF19D321E300BB7051;
+			remoteInfo = WSLCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A95D000419D321E300BB7051 /* WSLCalendarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WSLCalendarTests-Info.plist"; sourceTree = "<group>"; };
+		A95D000619D321E300BB7051 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A95D000819D321E300BB7051 /* WSLCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSLCalendarTests.m; sourceTree = "<group>"; };
+		A95D001319D3221500BB7051 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		A95D001419D3221500BB7051 /* MobileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileUtils.h; sourceTree = "<group>"; };
+		A95D001519D3221500BB7051 /* MobileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileUtils.m; sourceTree = "<group>"; };
+		A95D001819D3221500BB7051 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		A95D001919D3221500BB7051 /* crate_cal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crate_cal.png; sourceTree = "<group>"; };
+		A95D001A19D3221500BB7051 /* crate_cal_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crate_cal_pressed.png; sourceTree = "<group>"; };
+		A95D001B19D3221500BB7051 /* icon_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_add.png; sourceTree = "<group>"; };
+		A95D001C19D3221500BB7051 /* icon_btn_complete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_btn_complete.png; sourceTree = "<group>"; };
+		A95D001D19D3221500BB7051 /* icon_btn_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_btn_delete.png; sourceTree = "<group>"; };
+		A95D001E19D3221500BB7051 /* icon_clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_clock.png; sourceTree = "<group>"; };
+		A95D001F19D3221500BB7051 /* icon_edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_edit.png; sourceTree = "<group>"; };
+		A95D002019D3221500BB7051 /* icon_form_alarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_form_alarm.png; sourceTree = "<group>"; };
+		A95D002119D3221500BB7051 /* icon_form_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_form_close.png; sourceTree = "<group>"; };
+		A95D002219D3221500BB7051 /* icon_form_column_break.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_form_column_break.png; sourceTree = "<group>"; };
+		A95D002319D3221500BB7051 /* icon_form_extend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_form_extend.png; sourceTree = "<group>"; };
+		A95D002419D3221500BB7051 /* icon_form_notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_form_notes.png; sourceTree = "<group>"; };
+		A95D002519D3221500BB7051 /* icon_form_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_form_selected.png; sourceTree = "<group>"; };
+		A95D002619D3221500BB7051 /* icon_form_time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_form_time.png; sourceTree = "<group>"; };
+		A95D002719D3221500BB7051 /* icon_form_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_form_title.png; sourceTree = "<group>"; };
+		A95D002819D3221500BB7051 /* icon_form_type.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_form_type.png; sourceTree = "<group>"; };
+		A95D002919D3221600BB7051 /* icon_form_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_form_user.png; sourceTree = "<group>"; };
+		A95D002A19D3221600BB7051 /* icon_graywhite_left_triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_graywhite_left_triangle.png; sourceTree = "<group>"; };
+		A95D002B19D3221600BB7051 /* to_local.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = to_local.png; sourceTree = "<group>"; };
+		A95D002C19D3221600BB7051 /* to_local_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = to_local_pressed.png; sourceTree = "<group>"; };
+		A95D002D19D3221600BB7051 /* upload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upload.png; sourceTree = "<group>"; };
+		A95D002E19D3221600BB7051 /* upload_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upload_pressed.png; sourceTree = "<group>"; };
+		A95D002F19D3221600BB7051 /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		A95D003019D3221600BB7051 /* ScheduleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleData.h; sourceTree = "<group>"; };
+		A95D003119D3221600BB7051 /* ScheduleData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleData.m; sourceTree = "<group>"; };
+		A95D003219D3221600BB7051 /* ScheduleNewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleNewView.h; sourceTree = "<group>"; };
+		A95D003319D3221600BB7051 /* ScheduleNewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleNewView.m; sourceTree = "<group>"; };
+		A95D003419D3221600BB7051 /* ScheduleRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleRight.h; sourceTree = "<group>"; };
+		A95D003519D3221600BB7051 /* ScheduleRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleRight.m; sourceTree = "<group>"; };
+		A95D003619D3221600BB7051 /* ScheduleType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleType.h; sourceTree = "<group>"; };
+		A95D003719D3221600BB7051 /* ScheduleType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleType.m; sourceTree = "<group>"; };
+		A95D003819D3221600BB7051 /* ScheduleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleView.h; sourceTree = "<group>"; };
+		A95D003919D3221600BB7051 /* ScheduleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleView.m; sourceTree = "<group>"; };
+		A95DFFE019D321E300BB7051 /* WSLCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSLCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95DFFE319D321E300BB7051 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A95DFFE519D321E300BB7051 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A95DFFE719D321E300BB7051 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A95DFFEB19D321E300BB7051 /* WSLCalendar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WSLCalendar-Info.plist"; sourceTree = "<group>"; };
+		A95DFFED19D321E300BB7051 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A95DFFEF19D321E300BB7051 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A95DFFF119D321E300BB7051 /* WSLCalendar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WSLCalendar-Prefix.pch"; sourceTree = "<group>"; };
+		A95DFFF219D321E300BB7051 /* WSLScheduleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSLScheduleAppDelegate.h; sourceTree = "<group>"; };
+		A95DFFF319D321E300BB7051 /* WSLScheduleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSLScheduleAppDelegate.m; sourceTree = "<group>"; };
+		A95DFFF519D321E300BB7051 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A95DFFFB19D321E300BB7051 /* WSLCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSLCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95DFFFC19D321E300BB7051 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A95DFFDD19D321E300BB7051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95DFFE619D321E300BB7051 /* CoreGraphics.framework in Frameworks */,
+				A95DFFE819D321E300BB7051 /* UIKit.framework in Frameworks */,
+				A95DFFE419D321E300BB7051 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95DFFF819D321E300BB7051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95DFFFD19D321E300BB7051 /* XCTest.framework in Frameworks */,
+				A95DFFFF19D321E300BB7051 /* UIKit.framework in Frameworks */,
+				A95DFFFE19D321E300BB7051 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A95D000219D321E300BB7051 /* WSLCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				A95D000819D321E300BB7051 /* WSLCalendarTests.m */,
+				A95D000319D321E300BB7051 /* Supporting Files */,
+			);
+			path = WSLCalendarTests;
+			sourceTree = "<group>";
+		};
+		A95D000319D321E300BB7051 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A95D000419D321E300BB7051 /* WSLCalendarTests-Info.plist */,
+				A95D000519D321E300BB7051 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A95D001219D3221500BB7051 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				A95D001319D3221500BB7051 /* Common.h */,
+				A95D001419D3221500BB7051 /* MobileUtils.h */,
+				A95D001519D3221500BB7051 /* MobileUtils.m */,
+				A95D001619D3221500BB7051 /* Schedule */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		A95D001619D3221500BB7051 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				A95D001719D3221500BB7051 /* images */,
+				A95D002F19D3221600BB7051 /* Schedule.h */,
+				A95D003019D3221600BB7051 /* ScheduleData.h */,
+				A95D003119D3221600BB7051 /* ScheduleData.m */,
+				A95D003219D3221600BB7051 /* ScheduleNewView.h */,
+				A95D003319D3221600BB7051 /* ScheduleNewView.m */,
+				A95D003419D3221600BB7051 /* ScheduleRight.h */,
+				A95D003519D3221600BB7051 /* ScheduleRight.m */,
+				A95D003619D3221600BB7051 /* ScheduleType.h */,
+				A95D003719D3221600BB7051 /* ScheduleType.m */,
+				A95D003819D3221600BB7051 /* ScheduleView.h */,
+				A95D003919D3221600BB7051 /* ScheduleView.m */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		A95D001719D3221500BB7051 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A95D001819D3221500BB7051 /* arrow.png */,
+				A95D001919D3221500BB7051 /* crate_cal.png */,
+				A95D001A19D3221500BB7051 /* crate_cal_pressed.png */,
+				A95D001B19D3221500BB7051 /* icon_add.png */,
+				A95D001C19D3221500BB7051 /* icon_btn_complete.png */,
+				A95D001D19D3221500BB7051 /* icon_btn_delete.png */,
+				A95D001E19D3221500BB7051 /* icon_clock.png */,
+				A95D001F19D3221500BB7051 /* icon_edit.png */,
+				A95D002019D3221500BB7051 /* icon_form_alarm.png */,
+				A95D002119D3221500BB7051 /* icon_form_close.png */,
+				A95D002219D3221500BB7051 /* icon_form_column_break.png */,
+				A95D002319D3221500BB7051 /* icon_form_extend.png */,
+				A95D002419D3221500BB7051 /* icon_form_notes.png */,
+				A95D002519D3221500BB7051 /* icon_form_selected.png */,
+				A95D002619D3221500BB7051 /* icon_form_time.png */,
+				A95D002719D3221500BB7051 /* icon_form_title.png */,
+				A95D002819D3221500BB7051 /* icon_form_type.png */,
+				A95D002919D3221600BB7051 /* icon_form_user.png */,
+				A95D002A19D3221600BB7051 /* icon_graywhite_left_triangle.png */,
+				A95D002B19D3221600BB7051 /* to_local.png */,
+				A95D002C19D3221600BB7051 /* to_local_pressed.png */,
+				A95D002D19D3221600BB7051 /* upload.png */,
+				A95D002E19D3221600BB7051 /* upload_pressed.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A95DFFD719D321E300BB7051 = {
+			isa = PBXGroup;
+			children = (
+				A95DFFE919D321E300BB7051 /* WSLCalendar */,
+				A95D000219D321E300BB7051 /* WSLCalendarTests */,
+				A95DFFE219D321E300BB7051 /* Frameworks */,
+				A95DFFE119D321E300BB7051 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A95DFFE119D321E300BB7051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A95DFFE019D321E300BB7051 /* WSLCalendar.app */,
+				A95DFFFB19D321E300BB7051 /* WSLCalendarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A95DFFE219D321E300BB7051 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A95DFFE319D321E300BB7051 /* Foundation.framework */,
+				A95DFFE519D321E300BB7051 /* CoreGraphics.framework */,
+				A95DFFE719D321E300BB7051 /* UIKit.framework */,
+				A95DFFFC19D321E300BB7051 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A95DFFE919D321E300BB7051 /* WSLCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				A95D001219D3221500BB7051 /* New */,
+				A95DFFF219D321E300BB7051 /* WSLScheduleAppDelegate.h */,
+				A95DFFF319D321E300BB7051 /* WSLScheduleAppDelegate.m */,
+				A95DFFF519D321E300BB7051 /* Images.xcassets */,
+				A95DFFEA19D321E300BB7051 /* Supporting Files */,
+			);
+			path = WSLCalendar;
+			sourceTree = "<group>";
+		};
+		A95DFFEA19D321E300BB7051 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A95DFFEB19D321E300BB7051 /* WSLCalendar-Info.plist */,
+				A95DFFEC19D321E300BB7051 /* InfoPlist.strings */,
+				A95DFFEF19D321E300BB7051 /* main.m */,
+				A95DFFF119D321E300BB7051 /* WSLCalendar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A95DFFDF19D321E300BB7051 /* WSLCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95D000C19D321E300BB7051 /* Build configuration list for PBXNativeTarget "WSLCalendar" */;
+			buildPhases = (
+				A95DFFDC19D321E300BB7051 /* Sources */,
+				A95DFFDD19D321E300BB7051 /* Frameworks */,
+				A95DFFDE19D321E300BB7051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSLCalendar;
+			productName = WSLCalendar;
+			productReference = A95DFFE019D321E300BB7051 /* WSLCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A95DFFFA19D321E300BB7051 /* WSLCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95D000F19D321E300BB7051 /* Build configuration list for PBXNativeTarget "WSLCalendarTests" */;
+			buildPhases = (
+				A95DFFF719D321E300BB7051 /* Sources */,
+				A95DFFF819D321E300BB7051 /* Frameworks */,
+				A95DFFF919D321E300BB7051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A95D000119D321E300BB7051 /* PBXTargetDependency */,
+			);
+			name = WSLCalendarTests;
+			productName = WSLCalendarTests;
+			productReference = A95DFFFB19D321E300BB7051 /* WSLCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A95DFFD819D321E300BB7051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WSLSchedule;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = weasleyqi;
+				TargetAttributes = {
+					A95DFFFA19D321E300BB7051 = {
+						TestTargetID = A95DFFDF19D321E300BB7051;
+					};
+				};
+			};
+			buildConfigurationList = A95DFFDB19D321E300BB7051 /* Build configuration list for PBXProject "WSLCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A95DFFD719D321E300BB7051;
+			productRefGroup = A95DFFE119D321E300BB7051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A95DFFDF19D321E300BB7051 /* WSLCalendar */,
+				A95DFFFA19D321E300BB7051 /* WSLCalendarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A95DFFDE19D321E300BB7051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95DFFEE19D321E300BB7051 /* InfoPlist.strings in Resources */,
+				A95D004D19D3221600BB7051 /* icon_graywhite_left_triangle.png in Resources */,
+				A95D004A19D3221600BB7051 /* icon_form_title.png in Resources */,
+				A95D004F19D3221600BB7051 /* to_local_pressed.png in Resources */,
+				A95D003B19D3221600BB7051 /* arrow.png in Resources */,
+				A95D004719D3221600BB7051 /* icon_form_notes.png in Resources */,
+				A95D004619D3221600BB7051 /* icon_form_extend.png in Resources */,
+				A95D003C19D3221600BB7051 /* crate_cal.png in Resources */,
+				A95D004319D3221600BB7051 /* icon_form_alarm.png in Resources */,
+				A95D004C19D3221600BB7051 /* icon_form_user.png in Resources */,
+				A95DFFF619D321E300BB7051 /* Images.xcassets in Resources */,
+				A95D004119D3221600BB7051 /* icon_clock.png in Resources */,
+				A95D004019D3221600BB7051 /* icon_btn_delete.png in Resources */,
+				A95D004919D3221600BB7051 /* icon_form_time.png in Resources */,
+				A95D004419D3221600BB7051 /* icon_form_close.png in Resources */,
+				A95D005119D3221600BB7051 /* upload_pressed.png in Resources */,
+				A95D004E19D3221600BB7051 /* to_local.png in Resources */,
+				A95D003E19D3221600BB7051 /* icon_add.png in Resources */,
+				A95D003D19D3221600BB7051 /* crate_cal_pressed.png in Resources */,
+				A95D005019D3221600BB7051 /* upload.png in Resources */,
+				A95D004B19D3221600BB7051 /* icon_form_type.png in Resources */,
+				A95D004219D3221600BB7051 /* icon_edit.png in Resources */,
+				A95D004819D3221600BB7051 /* icon_form_selected.png in Resources */,
+				A95D003F19D3221600BB7051 /* icon_btn_complete.png in Resources */,
+				A95D004519D3221600BB7051 /* icon_form_column_break.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95DFFF919D321E300BB7051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95D000719D321E300BB7051 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A95DFFDC19D321E300BB7051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95D005219D3221600BB7051 /* ScheduleData.m in Sources */,
+				A95D005619D3221600BB7051 /* ScheduleView.m in Sources */,
+				A95DFFF419D321E300BB7051 /* WSLScheduleAppDelegate.m in Sources */,
+				A95D005519D3221600BB7051 /* ScheduleType.m in Sources */,
+				A95DFFF019D321E300BB7051 /* main.m in Sources */,
+				A95D003A19D3221600BB7051 /* MobileUtils.m in Sources */,
+				A95D005319D3221600BB7051 /* ScheduleNewView.m in Sources */,
+				A95D005419D3221600BB7051 /* ScheduleRight.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95DFFF719D321E300BB7051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95D000919D321E300BB7051 /* WSLCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A95D000119D321E300BB7051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A95DFFDF19D321E300BB7051 /* WSLCalendar */;
+			targetProxy = A95D000019D321E300BB7051 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A95D000519D321E300BB7051 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A95D000619D321E300BB7051 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A95DFFEC19D321E300BB7051 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A95DFFED19D321E300BB7051 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A95D000A19D321E300BB7051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A95D000B19D321E300BB7051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A95D000D19D321E300BB7051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WSLCalendar/WSLCalendar-Prefix.pch";
+				INFOPLIST_FILE = "WSLCalendar/WSLCalendar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A95D000E19D321E300BB7051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WSLCalendar/WSLCalendar-Prefix.pch";
+				INFOPLIST_FILE = "WSLCalendar/WSLCalendar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A95D001019D321E300BB7051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WSLCalendar.app/WSLCalendar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WSLCalendar/WSLCalendar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WSLCalendarTests/WSLCalendarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A95D001119D321E300BB7051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WSLCalendar.app/WSLCalendar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WSLCalendar/WSLCalendar-Prefix.pch";
+				INFOPLIST_FILE = "WSLCalendarTests/WSLCalendarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A95D000C19D321E300BB7051 /* Build configuration list for PBXNativeTarget "WSLCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95D000D19D321E300BB7051 /* Debug */,
+				A95D000E19D321E300BB7051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A95D000F19D321E300BB7051 /* Build configuration list for PBXNativeTarget "WSLCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95D001019D321E300BB7051 /* Debug */,
+				A95D001119D321E300BB7051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A95DFFDB19D321E300BB7051 /* Build configuration list for PBXProject "WSLCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95D000A19D321E300BB7051 /* Debug */,
+				A95D000B19D321E300BB7051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A95DFFD819D321E300BB7051 /* Project object */;
+}
